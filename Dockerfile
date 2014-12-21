@@ -5,7 +5,7 @@
 # https://www.digitalocean.com/community/articles/docker-explained-how-to-create-docker-containers-running-memcached
 ############################################################
 
-FROM debian/jessie
+FROM debian:jessie
 MAINTAINER Kévin Gomez <contact@kevingomez.fr>
 
 # Update the default application repository sources list
